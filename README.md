@@ -1,5 +1,8 @@
 # AlphaHack
 
+Демонстрация работы сервиса
+
+https://drive.google.com/file/d/1eHEX-h1l4Wzpp9mOTMZWlYHqtUxDFLc6/view?usp=sharing
 
 Пошаговый план:
 
