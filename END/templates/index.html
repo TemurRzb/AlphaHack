@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload CSV and Get Predictions</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Upload CSV File and Get Predictions</h1>
+    
+    <!-- Форма для загрузки CSV файла -->
+    <form id="upload-form" enctype="multipart/form-data">
+        <input type="file" id="file-upload" name="file" accept=".csv" required>
+        <button type="submit">Upload File</button>
+    </form>
+
+    <!-- Вывод данных о пользователе по ID -->
+    <div id="user-info">
+        <h2>User Information</h2>
+        <label for="user-id">Enter User ID:</label>
+        <input type="number" id="user-id">
+        <button id="get-user">Get User Info</button>
+        <div id="user-details"></div>
+    </div>
+
+    <!-- Место для отображения графика -->
+    <div id="shap-image">
+        <h2>SHAP Analysis</h2>
+        <img src="/info_image/" alt="SHAP Image">
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
