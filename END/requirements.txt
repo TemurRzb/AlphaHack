@@ -1,3 +1,5 @@
+https://drive.google.com/file/d/1eHEX-h1l4Wzpp9mOTMZWlYHqtUxDFLc6/view?usp=sharing
+
 pandas==2.3.3
 xgboost==3.1.2
 fastapi==0.122.0
